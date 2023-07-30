@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 const isProd = process.env.NODE_ENV !== 'development';
-const ghPagePublicPath = isProd ? 'https://.com/baozouai/react-illustration-series' : '/';
+const ghPagePublicPath = isProd ? 'https://.com/baozouai/react-illustration-series/' : '/';
 
 
 export default defineConfig({
