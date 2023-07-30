@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 const isProd = process.env.NODE_ENV !== 'development';
-const ghPagePublicPath = isProd ? '/' : '/';
+const ghPagePublicPath = isProd ? 'http://baozouai.github.io/react-illustration-series/' : '/';
 
 
 export default defineConfig({
@@ -14,7 +14,7 @@ export default defineConfig({
     logo: `${ghPagePublicPath}logo.png`,
  
     socialLinks:{
-      github: 'https://github.com/7kms/react-illustration-series',
+      github: 'https://github.com/baozouai/react-illustration-series',
     }
   },
   hash: true,
